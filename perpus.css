@@ -1,0 +1,112 @@
+/* SELECTOR ID */
+
+#header {
+  background-color: #166534;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+#menu {
+  background-color: #14532d;
+  padding: 15px;
+  text-align: center;
+}
+#menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+}
+
+#beranda {
+  background-color: #dcfce7;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#tentang {
+  background-color: #dcfce7;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+#buku {
+  background-color: #f0fdf4;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+#layanan {
+  background-color: white;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+#footer {
+  background-color: #14532d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* SELECTOR CLASS */
+
+.judul {
+  color: #166534;
+  text-align: center;
+}
+
+.tombol {
+  background-color: #166534;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.kotak {
+  background-color: white;
+  display: inline-block;
+  width: 25%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+  box-shadow: 0 3px 8px #00000020;
+}
+
+.kategori {
+  color: #166534;
+  font-weight: bold;
+}
+
+.daftar {
+  background-color: #dcfce7;
+  padding: 25px 45px;
+  border-radius: 10px;
+}
+img {
+  display: block;
+  width: 200px;
+  height: 270px;
+  margin: 0 auto;
+}
+figure {
+  flex: 1;
+}
+figure img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
